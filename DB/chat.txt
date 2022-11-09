@@ -1,0 +1,35 @@
+[
+  {
+    "author": {
+      "id": "arguello.marcos@protonmail.ch",
+      "nombre": "Marcos",
+      "apellido": "Argüello",
+      "edad": "38",
+      "alias": "marck1984",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/147/147144.png"
+    },
+    "mensaje": "Un mensaje"
+  },
+  {
+    "author": {
+      "id": "arguello.marcos@proton.me",
+      "nombre": "Nicolas",
+      "apellido": "Argüello",
+      "edad": "31",
+      "alias": "nico31",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/147/147144.png"
+    },
+    "mensaje": "Segundo mensaje"
+  },
+  {
+    "author": {
+      "id": "marck1984@gmail.com",
+      "nombre": "Sebastian",
+      "apellido": "Argüello",
+      "edad": "35",
+      "alias": "seba35",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/147/147142.png"
+    },
+    "mensaje": "Tercer mensaje"
+  }
+]
