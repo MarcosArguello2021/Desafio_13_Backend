@@ -39,7 +39,40 @@ MONGO_USER = "<usuario Mongo Atlas>"
 MONGO_PASS = "<contraseña Mongo Atlas>"
 MONGO_CLUSTER = "<@clusterx.asd123.mongodb.net/test>"
 GOOGLE_APLICATION_CREDENTIALS = "<google credentials>"
+PUERTO = 8080
 ```
 
 * Ejecutar el comando `npm run start` o ` npm run start -- --puerto <n° de puerto>`
 * Para probar/testear los diferentes rutas y funcionalidades, se recomienda utilizar [Postman](https://www.postman.com/downloads/)
+
+## Resolución:
+
+Iniciamos el proyecto en modo FORK con nodemon:
+
++ npm start 8080
+
+![1668606305425](image/README/1668606305425.jpg)
+
+Iniciamos el proyecto en modo CLUSTER con nodemon:
+
++ npm start 8081 CLUSTER
+
+![1668607605231](image/README/1668607605231.jpg)
+
+Iniciamos el proyecto en modo FOREVER, en los puertos 8081 y 8082:
+
++ forever start server.js 8081
++ forever start server.js 8082
+
+Listamos los PID:
+
+![1668607990063](image/README/1668607990063.png)
+
+Iniciamos ejecucion con PM2 en modo FORK y CLUSTER, se crean 2 servidores con puertos 8081 y 8082:
+
+![1668784039953](image/README/1668784039953.png)
+
+
+Iniciamos ejecucion con PM2 en modo FORK y CLUSTER, con NGINX:
+
+![1668790877636](image/README/1668790877636.png)

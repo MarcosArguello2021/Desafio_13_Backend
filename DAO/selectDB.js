@@ -1,5 +1,5 @@
 let arrayDB = ['txt','firebase','mongo'];
-let cambiarBase = arrayDB[2]; //para probar cambiar el indice del arrayDB por : 0, 1, 3;
+let cambiarBase = arrayDB[1]; //para probar cambiar el indice del arrayDB por : 0, 1, 3;
 
 let chatDao;
 
